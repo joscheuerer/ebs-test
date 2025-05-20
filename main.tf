@@ -25,7 +25,6 @@ resource "aws_instance" "example" {
    delete_on_termination = true
    tags = {
    Name = "EC2-with-3-EBS"
-   application_acronym = "TTO"
  }
  }
  ebs_block_device {
